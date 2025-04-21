@@ -1,0 +1,32 @@
+.experiment-list {
+  margin-bottom: 20px;
+}
+
+.experiment-item {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.experiment-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.experiment-organism {
+  font-size: 0.9em;
+  color: #6c757d;
+}
+
+.experiment-date {
+  font-size: 0.8em;
+  color: #6c757d;
+  margin-top: 5px;
+}
+
+.no-experiments {
+  padding: 15px;
+  text-align: center;
+  color: #6c757d;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}

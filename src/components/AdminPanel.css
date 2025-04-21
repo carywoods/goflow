@@ -1,0 +1,60 @@
+.admin-panel {
+  padding: 20px 0;
+}
+
+.admin-header {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #343a40;
+}
+
+.upload-card, .experiments-card, .help-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.upload-card .card-header, .experiments-card .card-header, .help-card .card-header {
+  background-color: #343a40;
+  color: white;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-completed {
+  background-color: #28a745;
+  color: white;
+}
+
+.status-processing {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.status-failed {
+  background-color: #dc3545;
+  color: white;
+}
+
+.status-pending {
+  background-color: #6c757d;
+  color: white;
+}
+
+.help-card ul, .help-card ol {
+  padding-left: 20px;
+}
+
+.help-card li {
+  margin-bottom: 5px;
+}
+
+.form-text {
+  margin-top: 5px;
+  font-size: 0.85rem;
+}

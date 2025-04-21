@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>GoFlow Logo</title>
+    <g id="GoFlow-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Background" fill="#343A40" cx="50" cy="50" r="50"></circle>
+        <g id="GO-Icon" transform="translate(20.000000, 20.000000)">
+            <path d="M30,0 C46.5685425,0 60,13.4314575 60,30 C60,46.5685425 46.5685425,60 30,60 C13.4314575,60 0,46.5685425 0,30 C0,13.4314575 13.4314575,0 30,0 Z" id="Circle" fill="#4285F4" opacity="0.3"></path>
+            <path d="M30,10 C41.0457,10 50,18.9543 50,30 C50,41.0457 41.0457,50 30,50 C18.9543,50 10,41.0457 10,30 C10,18.9543 18.9543,10 30,10 Z" id="Inner-Circle" stroke="#4285F4" stroke-width="3"></path>
+            <path d="M20,20 C25.5228,20 30,24.4772 30,30 C30,35.5228 25.5228,40 20,40 C14.4772,40 10,35.5228 10,30 C10,24.4772 14.4772,20 20,20 Z" id="Small-Circle-1" fill="#34A853"></path>
+            <path d="M40,20 C45.5228,20 50,24.4772 50,30 C50,35.5228 45.5228,40 40,40 C34.4772,40 30,35.5228 30,30 C30,24.4772 34.4772,20 40,20 Z" id="Small-Circle-2" fill="#EA4335"></path>
+        </g>
+    </g>
+</svg>

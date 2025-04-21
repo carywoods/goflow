@@ -1,0 +1,153 @@
+[
+  {
+    "go_id": "GO:0006412",
+    "genes": [
+      {
+        "gene_id": "YBR048W",
+        "symbol": "RPL11B",
+        "description": "Ribosomal 60S subunit protein L11B",
+        "expression_value": 3.42,
+        "p_value": 0.0012,
+        "ensembl_id": "YBR048W",
+        "uniprot_id": "P42673"
+      },
+      {
+        "gene_id": "YGL076C",
+        "symbol": "RPL7A",
+        "description": "Ribosomal 60S subunit protein L7A",
+        "expression_value": 2.98,
+        "p_value": 0.0018,
+        "ensembl_id": "YGL076C",
+        "uniprot_id": "P05737"
+      },
+      {
+        "gene_id": "YPL081W",
+        "symbol": "RPS9A",
+        "description": "Ribosomal 40S subunit protein S9A",
+        "expression_value": 3.15,
+        "p_value": 0.0022,
+        "ensembl_id": "YPL081W",
+        "uniprot_id": "O13516"
+      },
+      {
+        "gene_id": "YLR340W",
+        "symbol": "RPP0",
+        "description": "Ribosomal protein P0",
+        "expression_value": 2.76,
+        "p_value": 0.0031,
+        "ensembl_id": "YLR340W",
+        "uniprot_id": "P05317"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0005840",
+    "genes": [
+      {
+        "gene_id": "YBR048W",
+        "symbol": "RPL11B",
+        "description": "Ribosomal 60S subunit protein L11B",
+        "expression_value": 3.42,
+        "p_value": 0.0012,
+        "ensembl_id": "YBR048W",
+        "uniprot_id": "P42673"
+      },
+      {
+        "gene_id": "YGL076C",
+        "symbol": "RPL7A",
+        "description": "Ribosomal 60S subunit protein L7A",
+        "expression_value": 2.98,
+        "p_value": 0.0018,
+        "ensembl_id": "YGL076C",
+        "uniprot_id": "P05737"
+      },
+      {
+        "gene_id": "YPL081W",
+        "symbol": "RPS9A",
+        "description": "Ribosomal 40S subunit protein S9A",
+        "expression_value": 3.15,
+        "p_value": 0.0022,
+        "ensembl_id": "YPL081W",
+        "uniprot_id": "O13516"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0003735",
+    "genes": [
+      {
+        "gene_id": "YBR048W",
+        "symbol": "RPL11B",
+        "description": "Ribosomal 60S subunit protein L11B",
+        "expression_value": 3.42,
+        "p_value": 0.0012,
+        "ensembl_id": "YBR048W",
+        "uniprot_id": "P42673"
+      },
+      {
+        "gene_id": "YGL076C",
+        "symbol": "RPL7A",
+        "description": "Ribosomal 60S subunit protein L7A",
+        "expression_value": 2.98,
+        "p_value": 0.0018,
+        "ensembl_id": "YGL076C",
+        "uniprot_id": "P05737"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0006457",
+    "genes": [
+      {
+        "gene_id": "YLL024C",
+        "symbol": "SSA2",
+        "description": "HSP70 family ATP-binding protein",
+        "expression_value": 4.21,
+        "p_value": 0.0008,
+        "ensembl_id": "YLL024C",
+        "uniprot_id": "P10592"
+      },
+      {
+        "gene_id": "YPL240C",
+        "symbol": "HSP82",
+        "description": "Hsp90 chaperone",
+        "expression_value": 3.87,
+        "p_value": 0.0015,
+        "ensembl_id": "YPL240C",
+        "uniprot_id": "P02829"
+      },
+      {
+        "gene_id": "YDR258C",
+        "symbol": "HSP78",
+        "description": "Oligomeric mitochondrial matrix chaperone",
+        "expression_value": 3.65,
+        "p_value": 0.0019,
+        "ensembl_id": "YDR258C",
+        "uniprot_id": "P33416"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0005739",
+    "genes": [
+      {
+        "gene_id": "YDR258C",
+        "symbol": "HSP78",
+        "description": "Oligomeric mitochondrial matrix chaperone",
+        "expression_value": 3.65,
+        "p_value": 0.0019,
+        "ensembl_id": "YDR258C",
+        "uniprot_id": "P33416"
+      },
+      {
+        "gene_id": "YBR039W",
+        "symbol": "ATP3",
+        "description": "Gamma subunit of the F1 sector of mitochondrial F1F0 ATP synthase",
+        "expression_value": 2.54,
+        "p_value": 0.0042,
+        "ensembl_id": "YBR039W",
+        "uniprot_id": "P38077"
+      }
+    ]
+  }
+]

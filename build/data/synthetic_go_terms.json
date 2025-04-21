@@ -1,0 +1,107 @@
+[
+  {
+    "go_id": "GO:0006412",
+    "text": "translation",
+    "category": "biological_process",
+    "weight": 28.5,
+    "font_size": 220
+  },
+  {
+    "go_id": "GO:0005840",
+    "text": "ribosome",
+    "category": "cellular_component",
+    "weight": 26.8,
+    "font_size": 210
+  },
+  {
+    "go_id": "GO:0003735",
+    "text": "structural constituent of ribosome",
+    "category": "molecular_function",
+    "weight": 25.3,
+    "font_size": 200
+  },
+  {
+    "go_id": "GO:0006457",
+    "text": "protein folding",
+    "category": "biological_process",
+    "weight": 22.7,
+    "font_size": 190
+  },
+  {
+    "go_id": "GO:0005739",
+    "text": "mitochondrion",
+    "category": "cellular_component",
+    "weight": 21.4,
+    "font_size": 180
+  },
+  {
+    "go_id": "GO:0005634",
+    "text": "nucleus",
+    "category": "cellular_component",
+    "weight": 19.8,
+    "font_size": 170
+  },
+  {
+    "go_id": "GO:0006096",
+    "text": "glycolytic process",
+    "category": "biological_process",
+    "weight": 18.5,
+    "font_size": 160
+  },
+  {
+    "go_id": "GO:0005886",
+    "text": "plasma membrane",
+    "category": "cellular_component",
+    "weight": 17.2,
+    "font_size": 150
+  },
+  {
+    "go_id": "GO:0003723",
+    "text": "RNA binding",
+    "category": "molecular_function",
+    "weight": 16.1,
+    "font_size": 140
+  },
+  {
+    "go_id": "GO:0005737",
+    "text": "cytoplasm",
+    "category": "cellular_component",
+    "weight": 15.3,
+    "font_size": 130
+  },
+  {
+    "go_id": "GO:0006950",
+    "text": "response to stress",
+    "category": "biological_process",
+    "weight": 14.7,
+    "font_size": 120
+  },
+  {
+    "go_id": "GO:0005524",
+    "text": "ATP binding",
+    "category": "molecular_function",
+    "weight": 13.9,
+    "font_size": 110
+  },
+  {
+    "go_id": "GO:0006351",
+    "text": "transcription, DNA-templated",
+    "category": "biological_process",
+    "weight": 12.8,
+    "font_size": 100
+  },
+  {
+    "go_id": "GO:0005975",
+    "text": "carbohydrate metabolic process",
+    "category": "biological_process",
+    "weight": 11.5,
+    "font_size": 90
+  },
+  {
+    "go_id": "GO:0016491",
+    "text": "oxidoreductase activity",
+    "category": "molecular_function",
+    "weight": 10.2,
+    "font_size": 80
+  }
+]

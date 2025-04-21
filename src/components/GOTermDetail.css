@@ -1,0 +1,70 @@
+.go-term-card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.go-term-card .card-header {
+  background-color: #f8f9fa;
+  padding: 15px;
+}
+
+.go-term-id {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.category-badge {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.enrichment-info {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.enrichment-value, .term-counts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.label {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 5px;
+}
+
+.value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.genes-table {
+  margin-top: 15px;
+}
+
+.positive-value {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.negative-value {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.external-link {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.no-genes {
+  text-align: center;
+  padding: 20px;
+}

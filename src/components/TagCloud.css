@@ -1,0 +1,58 @@
+.tag-cloud-container {
+  margin: 20px 0;
+}
+
+.tag-cloud {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.tag-term {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, text-shadow 0.2s ease;
+  white-space: nowrap;
+}
+
+.tag-term:hover {
+  transform: scale(1.1) !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  z-index: 1000 !important;
+}
+
+.no-terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
