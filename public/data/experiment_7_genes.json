@@ -1,0 +1,130 @@
+[
+  {
+    "go_id": "GO:0006099",
+    "genes": [
+      {
+        "gene_id": "YKL085W",
+        "symbol": "MDH1",
+        "description": "Mitochondrial malate dehydrogenase",
+        "expression_value": 6.23,
+        "p_value": 0.00001,
+        "ensembl_id": "YKL085W",
+        "uniprot_id": "P17505"
+      },
+      {
+        "gene_id": "YCR005C",
+        "symbol": "CIT2",
+        "description": "Citrate synthase",
+        "expression_value": 5.78,
+        "p_value": 0.00005,
+        "ensembl_id": "YCR005C",
+        "uniprot_id": "P08679"
+      },
+      {
+        "gene_id": "YNL037C",
+        "symbol": "IDH1",
+        "description": "Isocitrate dehydrogenase subunit 1",
+        "expression_value": 5.45,
+        "p_value": 0.00008,
+        "ensembl_id": "YNL037C",
+        "uniprot_id": "P28834"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0006094",
+    "genes": [
+      {
+        "gene_id": "YGR254W",
+        "symbol": "FBP1",
+        "description": "Fructose-1,6-bisphosphatase",
+        "expression_value": 7.12,
+        "p_value": 0.000005,
+        "ensembl_id": "YGR254W",
+        "uniprot_id": "P09201"
+      },
+      {
+        "gene_id": "YMR303C",
+        "symbol": "ADH2",
+        "description": "Alcohol dehydrogenase",
+        "expression_value": 6.45,
+        "p_value": 0.00002,
+        "ensembl_id": "YMR303C",
+        "uniprot_id": "P00331"
+      },
+      {
+        "gene_id": "YHR174W",
+        "symbol": "ENO2",
+        "description": "Enolase II",
+        "expression_value": 5.89,
+        "p_value": 0.00004,
+        "ensembl_id": "YHR174W",
+        "uniprot_id": "P00925"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0009060",
+    "genes": [
+      {
+        "gene_id": "YKL085W",
+        "symbol": "MDH1",
+        "description": "Mitochondrial malate dehydrogenase",
+        "expression_value": 6.23,
+        "p_value": 0.00001,
+        "ensembl_id": "YKL085W",
+        "uniprot_id": "P17505"
+      },
+      {
+        "gene_id": "YBR039W",
+        "symbol": "ATP3",
+        "description": "Gamma subunit of the F1 sector of mitochondrial F1F0 ATP synthase",
+        "expression_value": 5.67,
+        "p_value": 0.00006,
+        "ensembl_id": "YBR039W",
+        "uniprot_id": "P38077"
+      },
+      {
+        "gene_id": "YDR529C",
+        "symbol": "QCR7",
+        "description": "Subunit 7 of ubiquinol cytochrome-c reductase complex",
+        "expression_value": 5.34,
+        "p_value": 0.0001,
+        "ensembl_id": "YDR529C",
+        "uniprot_id": "P00127"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0006631",
+    "genes": [
+      {
+        "gene_id": "YKL006W",
+        "symbol": "RPL14A",
+        "description": "Ribosomal 60S subunit protein L14A",
+        "expression_value": 4.92,
+        "p_value": 0.0002,
+        "ensembl_id": "YKL006W",
+        "uniprot_id": "P02840"
+      },
+      {
+        "gene_id": "YDR148C",
+        "symbol": "KGD2",
+        "description": "Dihydrolipoyl transsuccinylase",
+        "expression_value": 5.23,
+        "p_value": 0.0001,
+        "ensembl_id": "YDR148C",
+        "uniprot_id": "P22133"
+      },
+      {
+        "gene_id": "YBR149W",
+        "symbol": "ARA1",
+        "description": "D-arabinose dehydrogenase",
+        "expression_value": 4.67,
+        "p_value": 0.0003,
+        "ensembl_id": "YBR149W",
+        "uniprot_id": "P38115"
+      }
+    ]
+  }
+]

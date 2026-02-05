@@ -1,0 +1,128 @@
+[
+  {
+    "go_id": "GO:0030968",
+    "text": "endoplasmic reticulum unfolded protein response",
+    "category": "biological_process",
+    "weight": 34.2,
+    "font_size": 250
+  },
+  {
+    "go_id": "GO:0006986",
+    "text": "response to unfolded protein",
+    "category": "biological_process",
+    "weight": 30.8,
+    "font_size": 240
+  },
+  {
+    "go_id": "GO:0006457",
+    "text": "protein folding",
+    "category": "biological_process",
+    "weight": 28.5,
+    "font_size": 230
+  },
+  {
+    "go_id": "GO:0005783",
+    "text": "endoplasmic reticulum",
+    "category": "cellular_component",
+    "weight": 26.3,
+    "font_size": 220
+  },
+  {
+    "go_id": "GO:0034976",
+    "text": "response to endoplasmic reticulum stress",
+    "category": "biological_process",
+    "weight": 24.7,
+    "font_size": 210
+  },
+  {
+    "go_id": "GO:0051082",
+    "text": "unfolded protein binding",
+    "category": "molecular_function",
+    "weight": 22.9,
+    "font_size": 200
+  },
+  {
+    "go_id": "GO:0006621",
+    "text": "protein retention in ER lumen",
+    "category": "biological_process",
+    "weight": 21.2,
+    "font_size": 190
+  },
+  {
+    "go_id": "GO:0005788",
+    "text": "endoplasmic reticulum lumen",
+    "category": "cellular_component",
+    "weight": 19.6,
+    "font_size": 180
+  },
+  {
+    "go_id": "GO:0051087",
+    "text": "chaperone binding",
+    "category": "molecular_function",
+    "weight": 18.3,
+    "font_size": 170
+  },
+  {
+    "go_id": "GO:0006950",
+    "text": "response to stress",
+    "category": "biological_process",
+    "weight": 17.1,
+    "font_size": 160
+  },
+  {
+    "go_id": "GO:0042981",
+    "text": "regulation of apoptotic process",
+    "category": "biological_process",
+    "weight": 15.8,
+    "font_size": 150
+  },
+  {
+    "go_id": "GO:0005789",
+    "text": "endoplasmic reticulum membrane",
+    "category": "cellular_component",
+    "weight": 14.5,
+    "font_size": 140
+  },
+  {
+    "go_id": "GO:0006984",
+    "text": "ER-nucleus signaling pathway",
+    "category": "biological_process",
+    "weight": 13.3,
+    "font_size": 130
+  },
+  {
+    "go_id": "GO:0016887",
+    "text": "ATP hydrolysis activity",
+    "category": "molecular_function",
+    "weight": 12.2,
+    "font_size": 120
+  },
+  {
+    "go_id": "GO:0006605",
+    "text": "protein targeting",
+    "category": "biological_process",
+    "weight": 11.1,
+    "font_size": 110
+  },
+  {
+    "go_id": "GO:0045047",
+    "text": "protein targeting to ER",
+    "category": "biological_process",
+    "weight": 10.0,
+    "font_size": 100
+  },
+  {
+    "go_id": "GO:0005515",
+    "text": "protein binding",
+    "category": "molecular_function",
+    "weight": 9.0,
+    "font_size": 90
+  },
+  {
+    "go_id": "GO:0005634",
+    "text": "nucleus",
+    "category": "cellular_component",
+    "weight": 8.1,
+    "font_size": 80
+  }
+]

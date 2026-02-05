@@ -20,6 +20,34 @@
       "description": "Analysis of gene expression changes in yeast cells under nitrogen starvation conditions (24 hours)",
       "organism_name": "Saccharomyces cerevisiae",
       "experiment_date": "2025-03-25"
+    },
+    {
+      "experiment_id": 4,
+      "name": "DNA Damage Response in S. cerevisiae",
+      "description": "Analysis of gene expression changes in yeast cells exposed to UV radiation (100 J/m² for 2 hours recovery)",
+      "organism_name": "Saccharomyces cerevisiae",
+      "experiment_date": "2025-04-01"
+    },
+    {
+      "experiment_id": 5,
+      "name": "Cell Cycle Arrest in S. cerevisiae",
+      "description": "Analysis of gene expression changes in yeast cells treated with alpha-factor pheromone (10 μg/mL for 90 minutes)",
+      "organism_name": "Saccharomyces cerevisiae",
+      "experiment_date": "2025-04-05"
+    },
+    {
+      "experiment_id": 6,
+      "name": "ER Stress Response in S. cerevisiae",
+      "description": "Analysis of gene expression changes in yeast cells treated with tunicamycin (2.5 μg/mL for 2 hours)",
+      "organism_name": "Saccharomyces cerevisiae",
+      "experiment_date": "2025-04-10"
+    },
+    {
+      "experiment_id": 7,
+      "name": "Glucose Starvation in S. cerevisiae",
+      "description": "Analysis of gene expression changes in yeast cells shifted from glucose to glycerol medium (6 hours)",
+      "organism_name": "Saccharomyces cerevisiae",
+      "experiment_date": "2025-04-15"
     }
   ]
 }

@@ -1,0 +1,112 @@
+[
+  {
+    "go_id": "GO:0030968",
+    "genes": [
+      {
+        "gene_id": "YBR003W",
+        "symbol": "HAC1",
+        "description": "Basic leucine zipper (bZIP) transcription factor",
+        "expression_value": 6.45,
+        "p_value": 0.00002,
+        "ensembl_id": "YBR003W",
+        "uniprot_id": "P41682"
+      },
+      {
+        "gene_id": "YNL209W",
+        "symbol": "SSB2",
+        "description": "Cytoplasmic ATPase that is a ribosome-associated molecular chaperone",
+        "expression_value": 5.23,
+        "p_value": 0.0001,
+        "ensembl_id": "YNL209W",
+        "uniprot_id": "P40150"
+      },
+      {
+        "gene_id": "YDR142C",
+        "symbol": "KAR3",
+        "description": "Minus-end-directed microtubule motor",
+        "expression_value": 4.87,
+        "p_value": 0.0002,
+        "ensembl_id": "YDR142C",
+        "uniprot_id": "P17119"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0006986",
+    "genes": [
+      {
+        "gene_id": "YBR003W",
+        "symbol": "HAC1",
+        "description": "Basic leucine zipper (bZIP) transcription factor",
+        "expression_value": 6.45,
+        "p_value": 0.00002,
+        "ensembl_id": "YBR003W",
+        "uniprot_id": "P41682"
+      },
+      {
+        "gene_id": "YLR079W",
+        "symbol": "SIC1",
+        "description": "Inhibitor of Cdc28-Clb kinase complexes",
+        "expression_value": 5.67,
+        "p_value": 0.00007,
+        "ensembl_id": "YLR079W",
+        "uniprot_id": "P38634"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0006457",
+    "genes": [
+      {
+        "gene_id": "YLL024C",
+        "symbol": "SSA2",
+        "description": "HSP70 family ATPase",
+        "expression_value": 5.89,
+        "p_value": 0.00005,
+        "ensembl_id": "YLL024C",
+        "uniprot_id": "P10592"
+      },
+      {
+        "gene_id": "YNL209W",
+        "symbol": "SSB2",
+        "description": "Ribosome-associated molecular chaperone",
+        "expression_value": 5.23,
+        "p_value": 0.0001,
+        "ensembl_id": "YNL209W",
+        "uniprot_id": "P40150"
+      },
+      {
+        "gene_id": "YDR074W",
+        "symbol": "TPS2",
+        "description": "Phosphatase subunit of trehalose-6-P synthase",
+        "expression_value": 4.34,
+        "p_value": 0.0004,
+        "ensembl_id": "YDR074W",
+        "uniprot_id": "P31688"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0051082",
+    "genes": [
+      {
+        "gene_id": "YLL024C",
+        "symbol": "SSA2",
+        "description": "HSP70 family ATPase with unfolded protein binding",
+        "expression_value": 5.89,
+        "p_value": 0.00005,
+        "ensembl_id": "YLL024C",
+        "uniprot_id": "P10592"
+      },
+      {
+        "gene_id": "YPL240C",
+        "symbol": "HSP82",
+        "description": "Hsp90 chaperone",
+        "expression_value": 5.12,
+        "p_value": 0.0001,
+        "ensembl_id": "YPL240C",
+        "uniprot_id": "P02829"
+      }
+    ]
+  }
+]

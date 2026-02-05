@@ -1,0 +1,121 @@
+[
+  {
+    "go_id": "GO:0007049",
+    "genes": [
+      {
+        "gene_id": "YBR160W",
+        "symbol": "CDC28",
+        "description": "Cyclin-dependent kinase",
+        "expression_value": 5.34,
+        "p_value": 0.0001,
+        "ensembl_id": "YBR160W",
+        "uniprot_id": "P00546"
+      },
+      {
+        "gene_id": "YHL001W",
+        "symbol": "CLN2",
+        "description": "G1 cyclin",
+        "expression_value": 6.12,
+        "p_value": 0.00005,
+        "ensembl_id": "YHL001W",
+        "uniprot_id": "P20438"
+      },
+      {
+        "gene_id": "YDR146C",
+        "symbol": "SWI5",
+        "description": "Transcription factor",
+        "expression_value": 4.78,
+        "p_value": 0.0003,
+        "ensembl_id": "YDR146C",
+        "uniprot_id": "P08153"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0000082",
+    "genes": [
+      {
+        "gene_id": "YHL001W",
+        "symbol": "CLN2",
+        "description": "G1 cyclin",
+        "expression_value": 6.12,
+        "p_value": 0.00005,
+        "ensembl_id": "YHL001W",
+        "uniprot_id": "P20438"
+      },
+      {
+        "gene_id": "YPL256C",
+        "symbol": "CLN2",
+        "description": "G1/S-specific cyclin CLN2",
+        "expression_value": 5.89,
+        "p_value": 0.00008,
+        "ensembl_id": "YPL256C",
+        "uniprot_id": "P20439"
+      },
+      {
+        "gene_id": "YDR146C",
+        "symbol": "SWI5",
+        "description": "Transcription factor activating G1/S-specific transcription",
+        "expression_value": 4.78,
+        "p_value": 0.0003,
+        "ensembl_id": "YDR146C",
+        "uniprot_id": "P08153"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0007067",
+    "genes": [
+      {
+        "gene_id": "YBR160W",
+        "symbol": "CDC28",
+        "description": "Cyclin-dependent kinase",
+        "expression_value": 5.34,
+        "p_value": 0.0001,
+        "ensembl_id": "YBR160W",
+        "uniprot_id": "P00546"
+      },
+      {
+        "gene_id": "YPR119W",
+        "symbol": "CLB2",
+        "description": "B-type cyclin involved in cell cycle progression",
+        "expression_value": 4.92,
+        "p_value": 0.0002,
+        "ensembl_id": "YPR119W",
+        "uniprot_id": "P24869"
+      },
+      {
+        "gene_id": "YOR066W",
+        "symbol": "CYB5",
+        "description": "Cytochrome b5",
+        "expression_value": 3.45,
+        "p_value": 0.0015,
+        "ensembl_id": "YOR066W",
+        "uniprot_id": "P40312"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0004693",
+    "genes": [
+      {
+        "gene_id": "YBR160W",
+        "symbol": "CDC28",
+        "description": "Cyclin-dependent protein serine/threonine kinase",
+        "expression_value": 5.34,
+        "p_value": 0.0001,
+        "ensembl_id": "YBR160W",
+        "uniprot_id": "P00546"
+      },
+      {
+        "gene_id": "YOR066W",
+        "symbol": "PHO85",
+        "description": "Cyclin-dependent kinase",
+        "expression_value": 4.21,
+        "p_value": 0.0005,
+        "ensembl_id": "YOR066W",
+        "uniprot_id": "P17157"
+      }
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "go_id": "GO:0006281",
+    "text": "DNA repair",
+    "category": "biological_process",
+    "weight": 32.4,
+    "font_size": 240
+  },
+  {
+    "go_id": "GO:0006974",
+    "text": "cellular response to DNA damage stimulus",
+    "category": "biological_process",
+    "weight": 29.8,
+    "font_size": 230
+  },
+  {
+    "go_id": "GO:0000077",
+    "text": "DNA damage checkpoint signaling",
+    "category": "biological_process",
+    "weight": 27.3,
+    "font_size": 220
+  },
+  {
+    "go_id": "GO:0006302",
+    "text": "double-strand break repair",
+    "category": "biological_process",
+    "weight": 25.1,
+    "font_size": 210
+  },
+  {
+    "go_id": "GO:0000724",
+    "text": "double-strand break repair via homologous recombination",
+    "category": "biological_process",
+    "weight": 23.6,
+    "font_size": 200
+  },
+  {
+    "go_id": "GO:0005634",
+    "text": "nucleus",
+    "category": "cellular_component",
+    "weight": 22.4,
+    "font_size": 190
+  },
+  {
+    "go_id": "GO:0003684",
+    "text": "damaged DNA binding",
+    "category": "molecular_function",
+    "weight": 20.8,
+    "font_size": 180
+  },
+  {
+    "go_id": "GO:0006289",
+    "text": "nucleotide-excision repair",
+    "category": "biological_process",
+    "weight": 19.5,
+    "font_size": 170
+  },
+  {
+    "go_id": "GO:0000785",
+    "text": "chromatin",
+    "category": "cellular_component",
+    "weight": 18.2,
+    "font_size": 160
+  },
+  {
+    "go_id": "GO:0004519",
+    "text": "endonuclease activity",
+    "category": "molecular_function",
+    "weight": 17.1,
+    "font_size": 150
+  },
+  {
+    "go_id": "GO:0006310",
+    "text": "DNA recombination",
+    "category": "biological_process",
+    "weight": 15.9,
+    "font_size": 140
+  },
+  {
+    "go_id": "GO:0003677",
+    "text": "DNA binding",
+    "category": "molecular_function",
+    "weight": 14.7,
+    "font_size": 130
+  },
+  {
+    "go_id": "GO:0045893",
+    "text": "positive regulation of transcription",
+    "category": "biological_process",
+    "weight": 13.5,
+    "font_size": 120
+  },
+  {
+    "go_id": "GO:0000730",
+    "text": "DNA recombinase assembly",
+    "category": "biological_process",
+    "weight": 12.4,
+    "font_size": 110
+  },
+  {
+    "go_id": "GO:0005657",
+    "text": "replication fork",
+    "category": "cellular_component",
+    "weight": 11.3,
+    "font_size": 100
+  },
+  {
+    "go_id": "GO:0006357",
+    "text": "regulation of transcription by RNA polymerase II",
+    "category": "biological_process",
+    "weight": 10.2,
+    "font_size": 90
+  },
+  {
+    "go_id": "GO:0000793",
+    "text": "condensed chromosome",
+    "category": "cellular_component",
+    "weight": 9.1,
+    "font_size": 80
+  },
+  {
+    "go_id": "GO:0004003",
+    "text": "DNA helicase activity",
+    "category": "molecular_function",
+    "weight": 8.3,
+    "font_size": 70
+  }
+]

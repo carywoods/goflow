@@ -1,0 +1,128 @@
+[
+  {
+    "go_id": "GO:0006099",
+    "text": "tricarboxylic acid cycle",
+    "category": "biological_process",
+    "weight": 33.5,
+    "font_size": 250
+  },
+  {
+    "go_id": "GO:0006094",
+    "text": "gluconeogenesis",
+    "category": "biological_process",
+    "weight": 31.2,
+    "font_size": 240
+  },
+  {
+    "go_id": "GO:0009060",
+    "text": "aerobic respiration",
+    "category": "biological_process",
+    "weight": 28.9,
+    "font_size": 230
+  },
+  {
+    "go_id": "GO:0005739",
+    "text": "mitochondrion",
+    "category": "cellular_component",
+    "weight": 26.7,
+    "font_size": 220
+  },
+  {
+    "go_id": "GO:0006631",
+    "text": "fatty acid metabolic process",
+    "category": "biological_process",
+    "weight": 24.5,
+    "font_size": 210
+  },
+  {
+    "go_id": "GO:0005743",
+    "text": "mitochondrial inner membrane",
+    "category": "cellular_component",
+    "weight": 22.4,
+    "font_size": 200
+  },
+  {
+    "go_id": "GO:0006091",
+    "text": "generation of precursor metabolites and energy",
+    "category": "biological_process",
+    "weight": 20.8,
+    "font_size": 190
+  },
+  {
+    "go_id": "GO:0015980",
+    "text": "energy derivation by oxidation of organic compounds",
+    "category": "biological_process",
+    "weight": 19.3,
+    "font_size": 180
+  },
+  {
+    "go_id": "GO:0016491",
+    "text": "oxidoreductase activity",
+    "category": "molecular_function",
+    "weight": 18.0,
+    "font_size": 170
+  },
+  {
+    "go_id": "GO:0006635",
+    "text": "fatty acid beta-oxidation",
+    "category": "biological_process",
+    "weight": 16.7,
+    "font_size": 160
+  },
+  {
+    "go_id": "GO:0005759",
+    "text": "mitochondrial matrix",
+    "category": "cellular_component",
+    "weight": 15.5,
+    "font_size": 150
+  },
+  {
+    "go_id": "GO:0006629",
+    "text": "lipid metabolic process",
+    "category": "biological_process",
+    "weight": 14.3,
+    "font_size": "140"
+  },
+  {
+    "go_id": "GO:0045333",
+    "text": "cellular respiration",
+    "category": "biological_process",
+    "weight": 13.2,
+    "font_size": 130
+  },
+  {
+    "go_id": "GO:0005747",
+    "text": "mitochondrial respiratory chain complex I",
+    "category": "cellular_component",
+    "weight": 12.1,
+    "font_size": 120
+  },
+  {
+    "go_id": "GO:0055114",
+    "text": "oxidation-reduction process",
+    "category": "biological_process",
+    "weight": 11.0,
+    "font_size": 110
+  },
+  {
+    "go_id": "GO:0003995",
+    "text": "acyl-CoA dehydrogenase activity",
+    "category": "molecular_function",
+    "weight": 9.9,
+    "font_size": 100
+  },
+  {
+    "go_id": "GO:0005524",
+    "text": "ATP binding",
+    "category": "molecular_function",
+    "weight": 8.8,
+    "font_size": 90
+  },
+  {
+    "go_id": "GO:0009437",
+    "text": "carnitine metabolic process",
+    "category": "biological_process",
+    "weight": 7.7,
+    "font_size": 80
+  }
+]

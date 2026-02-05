@@ -1,0 +1,121 @@
+[
+  {
+    "go_id": "GO:0006281",
+    "genes": [
+      {
+        "gene_id": "YBR088C",
+        "symbol": "POL30",
+        "description": "Proliferating cell nuclear antigen (PCNA)",
+        "expression_value": 4.85,
+        "p_value": 0.0003,
+        "ensembl_id": "YBR088C",
+        "uniprot_id": "P15873"
+      },
+      {
+        "gene_id": "YIL133C",
+        "symbol": "RPL16A",
+        "description": "DNA polymerase epsilon subunit",
+        "expression_value": 3.92,
+        "p_value": 0.0007,
+        "ensembl_id": "YIL133C",
+        "uniprot_id": "P26793"
+      },
+      {
+        "gene_id": "YLR234W",
+        "symbol": "TOP3",
+        "description": "DNA topoisomerase III",
+        "expression_value": 3.67,
+        "p_value": 0.0011,
+        "ensembl_id": "YLR234W",
+        "uniprot_id": "P13298"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0006974",
+    "genes": [
+      {
+        "gene_id": "YBR160W",
+        "symbol": "CDC28",
+        "description": "Cyclin-dependent kinase",
+        "expression_value": 4.23,
+        "p_value": 0.0005,
+        "ensembl_id": "YBR160W",
+        "uniprot_id": "P00546"
+      },
+      {
+        "gene_id": "YML032C",
+        "symbol": "RAD52",
+        "description": "Protein involved in homologous recombination",
+        "expression_value": 5.12,
+        "p_value": 0.0002,
+        "ensembl_id": "YML032C",
+        "uniprot_id": "P06778"
+      },
+      {
+        "gene_id": "YER095W",
+        "symbol": "RAD51",
+        "description": "Strand exchange protein",
+        "expression_value": 4.89,
+        "p_value": 0.0004,
+        "ensembl_id": "YER095W",
+        "uniprot_id": "P25454"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0000077",
+    "genes": [
+      {
+        "gene_id": "YDR172W",
+        "symbol": "SUP35",
+        "description": "Translation termination factor eRF3",
+        "expression_value": 3.54,
+        "p_value": 0.0013,
+        "ensembl_id": "YDR172W",
+        "uniprot_id": "P05453"
+      },
+      {
+        "gene_id": "YKL113C",
+        "symbol": "RAD27",
+        "description": "Flap endonuclease",
+        "expression_value": 4.01,
+        "p_value": 0.0009,
+        "ensembl_id": "YKL113C",
+        "uniprot_id": "P26793"
+      }
+    ]
+  },
+  {
+    "go_id": "GO:0006302",
+    "genes": [
+      {
+        "gene_id": "YML032C",
+        "symbol": "RAD52",
+        "description": "Protein involved in homologous recombination",
+        "expression_value": 5.12,
+        "p_value": 0.0002,
+        "ensembl_id": "YML032C",
+        "uniprot_id": "P06778"
+      },
+      {
+        "gene_id": "YER095W",
+        "symbol": "RAD51",
+        "description": "Strand exchange protein",
+        "expression_value": 4.89,
+        "p_value": 0.0004,
+        "ensembl_id": "YER095W",
+        "uniprot_id": "P25454"
+      },
+      {
+        "gene_id": "YJL173C",
+        "symbol": "RFA3",
+        "description": "Replication factor A protein 3",
+        "expression_value": 3.76,
+        "p_value": 0.0012,
+        "ensembl_id": "YJL173C",
+        "uniprot_id": "P26755"
+      }
+    ]
+  }
+]

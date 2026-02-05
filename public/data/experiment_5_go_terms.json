@@ -1,0 +1,128 @@
+[
+  {
+    "go_id": "GO:0007049",
+    "text": "cell cycle",
+    "category": "biological_process",
+    "weight": 31.7,
+    "font_size": 240
+  },
+  {
+    "go_id": "GO:0000082",
+    "text": "G1/S transition of mitotic cell cycle",
+    "category": "biological_process",
+    "weight": 28.9,
+    "font_size": 230
+  },
+  {
+    "go_id": "GO:0007067",
+    "text": "mitotic cell cycle",
+    "category": "biological_process",
+    "weight": 26.5,
+    "font_size": 220
+  },
+  {
+    "go_id": "GO:0000278",
+    "text": "mitotic cell cycle",
+    "category": "biological_process",
+    "weight": 24.8,
+    "font_size": 210
+  },
+  {
+    "go_id": "GO:0007346",
+    "text": "regulation of mitotic cell cycle",
+    "category": "biological_process",
+    "weight": 22.3,
+    "font_size": 200
+  },
+  {
+    "go_id": "GO:0000278",
+    "text": "mitotic cell cycle",
+    "category": "biological_process",
+    "weight": 20.7,
+    "font_size": 190
+  },
+  {
+    "go_id": "GO:0005634",
+    "text": "nucleus",
+    "category": "cellular_component",
+    "weight": 19.4,
+    "font_size": 180
+  },
+  {
+    "go_id": "GO:0044772",
+    "text": "mitotic cell cycle phase transition",
+    "category": "biological_process",
+    "weight": 18.1,
+    "font_size": 170
+  },
+  {
+    "go_id": "GO:0000307",
+    "text": "cyclin-dependent protein serine/threonine kinase complex",
+    "category": "cellular_component",
+    "weight": 16.8,
+    "font_size": 160
+  },
+  {
+    "go_id": "GO:0004693",
+    "text": "cyclin-dependent protein serine/threonine kinase activity",
+    "category": "molecular_function",
+    "weight": 15.6,
+    "font_size": 150
+  },
+  {
+    "go_id": "GO:0007088",
+    "text": "regulation of mitotic cell cycle",
+    "category": "biological_process",
+    "weight": 14.4,
+    "font_size": 140
+  },
+  {
+    "go_id": "GO:0019901",
+    "text": "protein kinase binding",
+    "category": "molecular_function",
+    "weight": 13.2,
+    "font_size": 130
+  },
+  {
+    "go_id": "GO:0030332",
+    "text": "cyclin binding",
+    "category": "molecular_function",
+    "weight": 12.1,
+    "font_size": 120
+  },
+  {
+    "go_id": "GO:0051301",
+    "text": "cell division",
+    "category": "biological_process",
+    "weight": 11.0,
+    "font_size": 110
+  },
+  {
+    "go_id": "GO:0007165",
+    "text": "signal transduction",
+    "category": "biological_process",
+    "weight": 9.9,
+    "font_size": 100
+  },
+  {
+    "go_id": "GO:0071480",
+    "text": "cellular response to gamma radiation",
+    "category": "biological_process",
+    "weight": 8.7,
+    "font_size": 90
+  },
+  {
+    "go_id": "GO:0000785",
+    "text": "chromatin",
+    "category": "cellular_component",
+    "weight": 7.6,
+    "font_size": 80
+  },
+  {
+    "go_id": "GO:0016538",
+    "text": "cyclin-dependent protein serine/threonine kinase regulator activity",
+    "category": "molecular_function",
+    "weight": 6.5,
+    "font_size": 70
+  }
+]

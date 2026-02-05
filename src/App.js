@@ -35,10 +35,20 @@ function App() {
   };
 
   const fetchTagCloudData = useCallback(async () => {
+    if (!selectedExperiment) return;
+
     try {
       setLoading(true);
-      // Fetch from local JSON file
-      const response = await fetch('/data/synthetic_go_terms.json');
+      // Determine which data file to load based on experiment
+      const experimentId = selectedExperiment.experiment_id;
+      let dataFile = '/data/synthetic_go_terms.json'; // Default for experiments 1-3
+
+      // Use experiment-specific files for experiments 4-7
+      if (experimentId >= 4 && experimentId <= 7) {
+        dataFile = `/data/experiment_${experimentId}_go_terms.json`;
+      }
+
+      const response = await fetch(dataFile);
       let data = await response.json();
 
       // Apply filters
@@ -57,7 +67,7 @@ function App() {
       setLoading(false);
       console.error(err);
     }
-  }, [selectedCategory, minEnrichment]);
+  }, [selectedExperiment, selectedCategory, minEnrichment]);
 
   // Fetch experiments on component mount
   useEffect(() => {
@@ -72,18 +82,28 @@ function App() {
   }, [selectedExperiment, fetchTagCloudData]);
 
   const fetchGoTermGenes = async (goId) => {
+    if (!selectedExperiment) return {};
+
     try {
       // Fetch from local JSON file if not already loaded
       if (Object.keys(goTermGenes).length === 0) {
-        const response = await fetch('/data/go_term_genes.json');
+        const experimentId = selectedExperiment.experiment_id;
+        let dataFile = '/data/go_term_genes.json'; // Default for experiments 1-3
+
+        // Use experiment-specific files for experiments 4-7
+        if (experimentId >= 4 && experimentId <= 7) {
+          dataFile = `/data/experiment_${experimentId}_genes.json`;
+        }
+
+        const response = await fetch(dataFile);
         const data = await response.json();
-        
+
         // Convert array to object with go_id as key for easier lookup
         const genesMap = {};
         data.forEach(item => {
           genesMap[item.go_id] = item.genes;
         });
-        
+
         setGoTermGenes(genesMap);
         return genesMap;
       }
@@ -97,6 +117,7 @@ function App() {
   const handleExperimentSelect = (experiment) => {
     setSelectedExperiment(experiment);
     setSelectedGOTerm(null); // Reset selected GO term when changing experiments
+    setGoTermGenes({}); // Reset genes cache to load new experiment's gene data
   };
 
   const handleGOTermSelect = async (goTerm) => {
