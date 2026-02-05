@@ -177,6 +177,46 @@ Admin interface for data management:
 ]
 ```
 
+## Converting Your Own Data
+
+GoFlow includes tools to convert standard bioinformatics data formats into the required JSON format.
+
+### For Scientists: Quick Data Conversion
+
+If you have:
+- Gene expression results (RNA-seq, microarray)
+- GO enrichment analysis results (from GOrilla, DAVID, Enrichr, etc.)
+
+You can use our conversion tool to create GoFlow-compatible data files.
+
+**Quick Example:**
+```bash
+cd tools
+
+python convert_to_goflow.py \
+    --enrichment my_go_enrichment.csv \
+    --genes my_gene_expression.csv \
+    --mapping my_go_gene_mapping.csv \
+    --experiment-id 8 \
+    --experiment-name "My Experiment" \
+    --experiment-desc "Description of my experiment" \
+    --output-dir ../public/data
+```
+
+**What you need:**
+1. **Enrichment results** - GO terms with p-values or enrichment scores
+2. **Gene expression data** - Differentially expressed genes with fold changes
+3. **GO-gene mapping** - Which genes belong to which GO terms
+
+See **[tools/README.md](tools/README.md)** for:
+- Complete documentation
+- Input file format specifications
+- Step-by-step tutorials
+- Example files you can use as templates
+- How to get data from popular tools (DESeq2, edgeR, GOrilla, DAVID)
+
+**Example input files** are provided in `tools/examples/` directory.
+
 ## Building for Production
 
 ### Local Build

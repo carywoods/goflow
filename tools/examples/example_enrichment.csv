@@ -1,0 +1,11 @@
+go_id,term,category,p_value
+GO:0006950,response to stress,biological_process,0.000012
+GO:0006457,protein folding,biological_process,0.000056
+GO:0005783,endoplasmic reticulum,cellular_component,0.00015
+GO:0051082,unfolded protein binding,molecular_function,0.00023
+GO:0006986,response to unfolded protein,biological_process,0.00034
+GO:0005788,endoplasmic reticulum lumen,cellular_component,0.00045
+GO:0030968,endoplasmic reticulum unfolded protein response,biological_process,0.00067
+GO:0006621,protein retention in ER lumen,biological_process,0.00089
+GO:0051087,chaperone binding,molecular_function,0.0012
+GO:0005789,endoplasmic reticulum membrane,cellular_component,0.0015

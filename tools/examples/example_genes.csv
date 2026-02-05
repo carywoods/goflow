@@ -1,0 +1,11 @@
+gene_symbol,description,expression_value,p_value,ensembl_id,uniprot_id
+SSA2,HSP70 family ATP-binding protein,5.23,0.0001,YLL024C,P10592
+HSP82,Hsp90 chaperone,4.87,0.0002,YPL240C,P02829
+HAC1,bZIP transcription factor (ATF/CREB1 homolog),6.45,0.00002,YBR003W,P41682
+SSB2,Cytoplasmic ATPase that is a ribosome-associated molecular chaperone,5.12,0.0001,YNL209W,P40150
+KAR2,ATPase involved in protein import into the ER,4.89,0.0003,YJL034W,P16474
+PDI1,Protein disulfide isomerase,4.56,0.0004,YCL043C,P17967
+ERO1,Endoplasmic reticulum oxidoreductin,3.98,0.0006,YML130C,Q03103
+SEC61,Subunit of the Sec61p translocation complex,3.67,0.0008,YLR378C,P32915
+SEC62,Essential subunit of Sec63 complex,3.45,0.001,YPL094C,P21825
+SSE1,Hsp110 family ATPase,5.67,0.00008,YPL106C,P32589
