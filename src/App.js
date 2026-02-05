@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Container, Row, Col, Nav, Form, Button, Card, Alert } from 'react-bootstrap';
+import React, { useState, useEffect, useCallback } from 'react';
+import { Container, Row, Col, Nav, Form, Button, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import TagCloud from './components/TagCloud';
@@ -19,18 +19,6 @@ function App() {
   const [error, setError] = useState(null);
   const [goTermGenes, setGoTermGenes] = useState({});
 
-  // Fetch experiments on component mount
-  useEffect(() => {
-    fetchExperiments();
-  }, []);
-
-  // Fetch tag cloud data when experiment or filters change
-  useEffect(() => {
-    if (selectedExperiment) {
-      fetchTagCloudData();
-    }
-  }, [selectedExperiment, selectedCategory, minEnrichment]);
-
   const fetchExperiments = async () => {
     try {
       setLoading(true);
@@ -46,22 +34,22 @@ function App() {
     }
   };
 
-  const fetchTagCloudData = async () => {
+  const fetchTagCloudData = useCallback(async () => {
     try {
       setLoading(true);
       // Fetch from local JSON file
       const response = await fetch('/data/synthetic_go_terms.json');
       let data = await response.json();
-      
+
       // Apply filters
       if (selectedCategory !== 'all') {
         data = data.filter(term => term.category === selectedCategory);
       }
-      
+
       if (minEnrichment > 0) {
         data = data.filter(term => term.weight >= minEnrichment);
       }
-      
+
       setTagCloudData(data);
       setLoading(false);
     } catch (err) {
@@ -69,7 +57,19 @@ function App() {
       setLoading(false);
       console.error(err);
     }
-  };
+  }, [selectedCategory, minEnrichment]);
+
+  // Fetch experiments on component mount
+  useEffect(() => {
+    fetchExperiments();
+  }, []);
+
+  // Fetch tag cloud data when experiment or filters change
+  useEffect(() => {
+    if (selectedExperiment) {
+      fetchTagCloudData();
+    }
+  }, [selectedExperiment, fetchTagCloudData]);
 
   const fetchGoTermGenes = async (goId) => {
     try {

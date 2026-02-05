@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Form, Button, Card, Alert, ProgressBar, Table, Nav } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Card, Alert, ProgressBar, Table } from 'react-bootstrap';
 import './AdminPanel.css';
 
 const AdminPanel = ({ onExperimentAdded }) => {
