@@ -22,7 +22,7 @@ GoFlow is a semantic web visualization framework designed to help bioinformatics
 - **Drill-down Functionality**: Click any term to view detailed information and associated genes
 
 ### Data Management
-- **Admin Panel**: Upload and manage experimental datasets
+- **Admin Panel**: View all experiments and their metadata (web-based upload coming soon)
 - **Experiment Browser**: Browse and select from multiple experiments
 - **Experiment Details**: View metadata including organism, date, and description
 - **Gene Mapping**: View genes associated with each GO term
@@ -88,7 +88,7 @@ goflow/
 │   └── logo.svg
 ├── src/
 │   ├── components/
-│   │   ├── AdminPanel.js           # Data upload and management
+│   │   ├── AdminPanel.js           # View experiments and metadata
 │   │   ├── AdminPanel.css
 │   │   ├── ExperimentList.js       # Experiment browser sidebar
 │   │   ├── ExperimentList.css
@@ -133,10 +133,11 @@ Sidebar component for browsing experiments:
 - Shows experiment metadata
 
 #### AdminPanel.js
-Admin interface for data management:
-- Upload experimental data files
-- View existing experiments
-- Monitor processing status
+Admin interface for viewing experiments:
+- Display all available experiments with metadata
+- Show GO term counts for each experiment
+- Provide instructions for adding new experiments via command-line tool
+- List planned features for future releases
 
 ## Data Format
 
@@ -387,6 +388,7 @@ Note: Some vulnerabilities may require breaking changes. Review carefully before
 
 ## Future Enhancements
 
+- [ ] Web-based file upload in Admin Panel (currently requires command-line tool)
 - [ ] Backend API integration for data storage
 - [ ] User authentication and authorization
 - [ ] Export functionality (PDF, PNG, CSV)
