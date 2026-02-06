@@ -86,21 +86,33 @@ Use this checklist to verify all functionality works correctly.
 - [ ] Tab content displays correctly
 
 ### Admin Panel
-- [ ] Form displays correctly
-- [ ] All form fields are present:
-  - [ ] Experiment Name
-  - [ ] Description
-  - [ ] Organism selector
-  - [ ] File upload
-- [ ] Organism dropdown has options
-- [ ] File upload accepts CSV/TSV files
-- [ ] "Upload and Process" button is clickable
-- [ ] Mock upload simulation works:
-  - [ ] Progress bar animates
-  - [ ] Status messages update
-  - [ ] Success message displays
-- [ ] Existing experiments table shows data
-- [ ] Help section is readable
+- [ ] Admin Panel tab is accessible
+- [ ] Information alert displays correctly explaining purpose
+- [ ] Current experiments table displays:
+  - [ ] All 7 experiments listed
+  - [ ] Experiment ID, Name, Description shown
+  - [ ] Organism name displayed correctly
+  - [ ] Experiment date shown
+  - [ ] GO term count badge displays for each experiment
+- [ ] GO term counts are accurate for each experiment:
+  - [ ] Experiments 1-3 show counts from synthetic_go_terms.json
+  - [ ] Experiments 4-7 show counts from experiment_X_go_terms.json
+- [ ] "How to Add New Experiments" card displays:
+  - [ ] Warning that web upload not implemented
+  - [ ] Step 1: Prepare Your Data section readable
+  - [ ] Step 2: Run Conversion Tool with example command
+  - [ ] Step 3: Rebuild & Deploy instructions
+  - [ ] Link to tools/README.md works
+- [ ] "Required Data Format" card displays:
+  - [ ] Enrichment Results CSV example
+  - [ ] Gene Expression CSV example
+  - [ ] GO-Gene Mapping CSV example
+  - [ ] Reference to tools/examples/ directory
+- [ ] "Future Features" card displays:
+  - [ ] List of planned enhancements
+  - [ ] Link to ROADMAP.md works
+- [ ] All text is readable and properly formatted
+- [ ] No mock upload functionality present
 
 ### Error Handling
 - [ ] Invalid data files show error message

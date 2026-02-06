@@ -7,7 +7,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Four new sample experiments (2025-02-05):
+  - DNA Damage Response (UV radiation, S. cerevisiae)
+  - Cell Cycle Arrest (alpha-factor, S. cerevisiae)
+  - ER Stress Response (tunicamycin, S. cerevisiae)
+  - Glucose Starvation (glycerol shift, S. cerevisiae)
+- Dynamic data loading based on experiment ID
+- Python data conversion tool (tools/convert_to_goflow.py)
+- Comprehensive tools documentation (tools/README.md)
+- Example CSV files for data conversion
+- Integration guides for DESeq2, GOrilla, DAVID, and Enrichr
+- TESTING.md with comprehensive QA checklist
+- ROADMAP.md with 6-phase development plan
+- CLAUDE.md with project context for AI assistants
+
+### Changed
+- AdminPanel now displays real experiments from experiments.json (2025-02-05)
+- AdminPanel calculates and shows accurate GO term counts for each experiment
+- Removed mock file upload functionality from AdminPanel
+- Updated all documentation to reflect AdminPanel's actual capabilities (view-only)
+- App.js now dynamically loads experiment-specific data files
+- README.md updated with data conversion workflow
+- Improved documentation accuracy across all files
+
+### Fixed
+- AdminPanel previously showed fake/mock experiment data
+- Build directory removed from git tracking (auto-generated artifacts)
+- Added package-lock.json for consistent dependency versions
+
+### Documentation
+- Added clear instructions for using command-line conversion tool
+- Created "Future Features" section showing planned enhancements
+- Updated README to clarify Admin Panel is currently view-only
+- Added comprehensive testing checklist
+- Created detailed development roadmap
+
 ### Planned
+- Web-based file upload in Admin Panel
 - Backend API integration for data persistence
 - User authentication and authorization
 - Export functionality (PDF, PNG, CSV)
